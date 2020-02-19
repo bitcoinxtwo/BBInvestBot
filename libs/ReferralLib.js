@@ -137,7 +137,7 @@ function attractedByChannel(){
 
 function getRefLink(botName, prefix){
   if(!prefix){
-    prefix = "user"
+    prefix = "r"
   }else{
     Bot.setProperty("REFLIB_refList_" + "link_prefix", prefix, 'string');
   }
