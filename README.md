@@ -1,12 +1,5 @@
-# BBInvestmentBot - chat bot
-It is repository for chat bot: [@BBInvestmentBot](https://t.me/BBInvestmentBot)
-
-This bot in progress.
-Not completed
-
-![]()
-
-
+# bitcoinsplitbot - chat bot
+It is repository for chat bot: [@bitcoinsplitbot](https://t.me/bitcoinsplitbot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
