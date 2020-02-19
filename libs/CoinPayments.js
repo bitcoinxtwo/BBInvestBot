@@ -83,7 +83,7 @@ function haveError(options, errCallback){
   if(errCallback){
     Bot.runCommand(errCallback, {result: result, error: err });
   }else{
-    Bot.sendMessage("CoinPaymentsLib error:\n\n" + err);
+    Bot.sendMessage("*error!!!:\n\n*" + err);
   }
   return true
 }
@@ -473,7 +473,9 @@ publish({
   createPermanentWallet: createPermanentWallet,
 
   getTxInfo: getTxInfo,
-
+  
+  acceptPaymentForPermanentWalletIfNeed: acceptPaymentForPermanentWalletIfNeed,
+  acceptPaymentIfNeed: acceptPaymentIfNeed,
   callTestPaymentCompleted: callTestPaymentCompleted,
   callTestPermanentWalletIncome: callTestPermanentWalletIncome
 })
